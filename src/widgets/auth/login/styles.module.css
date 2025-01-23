@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #F9FAFB;
+}
+
+.auth {
+    min-width: 448px;
+    background: #fff;
+    box-shadow: 0 10px 15px 0 #0000001A;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.auth__form-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #111827;
+}
+
+.auth__form-subtitle {
+    text-align: center;
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 34px;
+}
+
+.auth__form-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.auth__form-link {
+    font-size: 14px;
+    color: #2563EB;
+    text-decoration: none;
+}
+
+.auth__form-submit {
+    width: 100%;
+    background: #2563EB;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.auth__form-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
