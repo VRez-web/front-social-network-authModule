@@ -4,7 +4,7 @@ import React from "react";
 interface IProps {
   label?: string;
   value: string | number;
-  type: "text" | "password" | "email";
+  type: "text" | "password" | "email" | "number";
   placeholder?: string;
   id?: string;
   handleInputChange?: (e: React.FormEvent<HTMLInputElement>) => void;
